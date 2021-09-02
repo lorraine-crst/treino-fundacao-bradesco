@@ -1,0 +1,37 @@
+<html>
+  <head>
+      <meta charset="UTF-8">
+    <title>Campo senha</title>
+      <link rel="stylesheet" type="text/css" href=".style.css">
+       <link rel="stylesheet" href=".style.css">
+    
+
+  </head>
+  <body>
+    <form action="email@email.com" method="get">
+  <fieldset>
+    <p><font-face="calibri"></font-face>Nome:<input type="text" name="nome" size="25" maxlenght="50"></p>
+    <p>N° do cartão de crédito<input type="number" name="num_cartao" size="16"></p>
+    <p>Senha:<input type="password"  name="senha" size="6"></p>
+    <p>Seleciome a bandeira do cartão:<br><input type="radio"  name="vi" checked>VISA<input type="radio" name="mst">MASTERCARD</P>
+    <p>Seleciome o horário de entrega:<br><input type="checkbox"  name="horario1" size="1">8h às 12h<br><input type="checkbox" name="horário2">13h às 15h<br><input type="checkbox" name="horário3">15h às 18h</P>
+      <p>Estado:<select name="cCid" id="cEst">
+          <option>Rio de Janeiro</option>
+          <option>São Paulo</option>
+          <option>Minas Gerais</option>
+          <option>Santa Catarina</option>
+        </select></p>
+      <p>Cidade:<input type="text" name="tCid" id="cCid" maxlength="40" size="20" placeholder="Sua cidade" list="cidades"></p>
+      <datalist id="cidades">
+        <option>Nova Iguaçu </option>
+        <option> Holambra </option>
+        <option>Belo Horizonte</option>
+        <option> Florianópolis </option>
+      </datalist>
+     <p>Referência:<textarea  name="ref" rows="4" cols="30" placeholder="rua, cidade, bairro, número"></textarea></p>
+     <input type="submit" value="enviar">
+     <input type="reset" value="limpar">
+  </fieldset>
+    </form>
+    </body>
+  <html>
